@@ -20,7 +20,7 @@ brew 'findutils'
 brew 'bash'
 
 # Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
+brew 'grep'
 
 # Install Binaries
 brew 'awscli'
@@ -34,7 +34,7 @@ brew 'trash'
 brew 'wget'
 
 # Development
-brew 'php71', args: ['with-debug']
+brew 'php71'
 brew 'php71-intl'
 brew 'mysql'
 
@@ -47,10 +47,12 @@ cask 'google-chrome'
 cask 'google-drive'
 cask 'gpgtools'
 cask 'iterm2'
+cask 'paw'
 cask 'phpstorm'
 cask 'sequel-pro'
 cask 'shuttle'
 cask 'slack'
+cask 'spotify'
 cask 'sublime-text'
 cask 'tower'
 cask 'transmit'
@@ -74,6 +76,5 @@ cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
 mas '1Password', id: 443987910
-mas 'Paw', id: 584653203
 mas 'Color Picker', id: 641027709
 mas 'Uberlayer', id: 510139938
