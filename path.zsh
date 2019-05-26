@@ -4,8 +4,8 @@ export PATH="$HOME/.node/bin:$PATH"
 # Use project specific binaries before global ones
 export PATH="node_modules/.bin:vendor/bin:$PATH"
 
-# Make sure PHP 7.1 is loaded
-export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
+# Make sure PHP 7.3 is loaded
+export PATH="$(brew --prefix homebrew/php/php7.3)/bin:$PATH"
 
 # Add NPM global bin path
 export PATH="$(yarn global bin):$PATH"
