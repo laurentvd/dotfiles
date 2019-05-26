@@ -4,29 +4,21 @@ tap 'caskroom/fonts'
 tap 'homebrew/bundle'
 
 # Install ZSH
+brew 'bash' # Latest Bash version
+brew 'bat' # "cat" on steroids
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'git'
+brew 'gnupg2'
+brew 'grep'
+brew 'mackup'
+brew 'mas' # Mac App Store manager
+brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'trash' # Manage the Trash bin
+brew 'tree' # List directories in a tree structure
+brew 'zlib' # Needed for Memcached
+brew 'zplug' # ZSH Plugin Manager
 brew 'zsh'
 brew 'zsh-completions'
-
-# Install GNU core utilities (those that come with macOS are outdated)
-brew 'coreutils'
-
-# Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
-brew 'findutils'
-
-# Install Bash 4
-brew 'bash'
-
-# Install more recent versions of some macOS tools
-brew 'grep'
-
-# Install Binaries
-brew 'git'
-brew 'hub'
-brew 'tree'
-brew 'mas'
-brew 'nvm'
-brew 'trash'
-brew 'wget'
 
 # Development
 brew 'php@7.0'
@@ -34,6 +26,8 @@ brew 'php@7.1'
 brew 'php@7.2'
 brew 'php@7.3'
 brew 'mysql@5.7'
+brew 'imagick'
+brew 'redis'
 
 # Apps
 cask 'caffeine'
@@ -69,12 +63,17 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Install Mac App Store apps
-mas '1Password', id: 443987910
+mas '1Password', id: 1333542190
 mas 'Color Picker', id: 641027709
 mas 'Uberlayer', id: 510139938
+mas 'WhatsApp', id: 1147396723 
+mas 'The Unarchiver', id: 425424353
